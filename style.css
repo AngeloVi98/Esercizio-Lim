@@ -1,0 +1,94 @@
+        /* Stili generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{height: auto; width: auto;}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+      /*struttura base del sito */
+body{
+    background-image:url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.container{   
+width: 70%;
+border-radius: 15px;
+margin:3% auto;
+background: rgba(0, 0, 0, 0.5);
+
+}
+article{
+    margin-top:5%;
+}
+        /*logo + prenotazioni*/
+figure{
+    text-align: center;
+    padding:1%;
+
+}
+
+figure>img{
+    height: 100px;
+    margin-top: 7%;
+}
+
+figure>h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #00dd00;
+    font-size: 39px;
+}
+figure>form{
+    background-color:#00dd00;
+    height: 50px;
+    margin: 0 5%;
+}
+div>form{
+    padding: 2%;
+
+}
+       /*sezioni del sito*/
+
+section{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-bottom: 4%;
+}
+section>h2{
+    display: inline-block;
+    margin-left:2px;
+}
+section>p{
+    margin-top: 4px;
+}
+section>p>span::before{
+   content: '\27FC'
+}
+section>p>span::after{
+    content: "-";
+    margin: 0 2px;
+}
+
+.valorecarica{
+    height: 25px;
+    border-radius: 5px;
+}
+
+#caricamedia{
+    background-color: #f5b453;
+    width: 40%;
+}
+#caricapiena{
+    width: 60%;
+    background-color: #1ec31e;
+}
+#caricabassa{
+    width: 20%;
+    background-color: #be4141;
+}
